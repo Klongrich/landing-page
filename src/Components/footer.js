@@ -14,6 +14,7 @@ const Container = styled.div`
 const ContactForum = styled.div`
     border: 2px solid white;
 
+    float: left;
     padding-top: -80px;
     padding: 15px;
     margin-left: 50px;
@@ -113,6 +114,47 @@ export default function Footer() {
                 </SubmitButton>
             </ContactForum>
 
+        <div Style="border: 2px solid white; 
+                    padding: 15px; 
+                    height: 750px;
+                    margin-left: 500px;
+                    maring-bottom: 200px;">
+            <h2>About</h2>
+
+            <p>Starting computer programming at ages 16 - 17. </p>
+            <p>Pursured further education at <a href="https://www.42.fr/"> Ecole 42 </a> in the SF / bay year. </p>
+            <p>Now full time freelance software developer</p>
+
+            <h2>Visitd Countries</h2>
+            <p>Large fan of travel, have been able to see a good amouhnt of Eurpope</p>
+            
+            <ul>
+                <li>Iceland</li>
+                <li>Netherlands</li>
+                <li>Belguim</li>
+                <li>France</li>
+                <li>Switzerland</li>
+                <li>Germany</li>
+                <li>Denmark</li>
+                <li>Sweden</li>
+                <li>Norway</li>
+            </ul>
+
+            <ul>
+                <li>Poland</li>
+                <li>Austria</li>
+                <li>Slovika</li>
+                <li>Chezc Republic</li>
+                <li>Hungray</li>
+                <li>Croaita</li> 
+                <li>Slovenia</li>
+                <li>Linchestien</li> 
+                <li>United Kingdom</li>
+                <li>Ireland</li>             
+            </ul>
+
+            <p>Have a blog <a href="/"> here </a> </p>
+        </div>
 
         </Container>
         </>

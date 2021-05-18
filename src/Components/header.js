@@ -6,6 +6,8 @@ const Container = styled.div`
     padding: 15px;
     font-size: 30px;
     color: #00458B;
+
+    background-color: #EEEEEE;
 `
 
 export default function Body() {

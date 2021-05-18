@@ -3,8 +3,14 @@ import styled from 'styled-components';
 import SmartContractBackground from './smart_contract.png'
 
 const Container = styled.div`
+    padding:15px;
+    margin-bottom: 35px; 
+
     font-size: 50px;
     color: #99DDFa;
+
+    background-color: #3E00FF ;
+
 `
 
 export default function Body() {
